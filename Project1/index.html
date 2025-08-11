@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My City</title>
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif
+        }
+  
+     .head{
+            width:100%;
+            height: 50px;
+            text-align: center;
+            margin-top:0px;
+            margin-bottom: 20px;
+        }
+        .intro{
+            width:100%;
+            height:400px;
+            display: flex; 
+        }
+        .image{
+            margin-right: 20px;
+            width:400px;
+            height: 350px;
+             border-radius: 12px;
+              object-fit: cover
+        }
+        .read{
+            align-items:center;
+        }
+
+.attractions {
+    max-width: 1100px;
+    margin: 40px;
+    padding: 0 20px;
+}
+
+.attractions h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:  #0b6e4f;
+    margin-bottom: 20px;
+}
+
+.attractions-grid {
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.attraction-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.attraction-card img {
+    width: 100%;
+    height: 180px;
+  
+}
+
+.attraction-card h3 {
+    margin: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.attraction-card p {
+    margin: 0 12px 16px;
+    color: #6b7280;
+    font-size: 14px;
+}
+.culture {
+    padding: 40px;
+    background-color: #fff8f0;
+    text-align: center;
+}
+
+.culture h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.section-desc {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+}
+
+.culture-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.culture-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.culture-card img {
+    width: 100%;
+    height: 200px;
+    
+}
+
+.card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-content p {
+    color: #555;
+    font-size: 0.95em;
+}
+.suggestion-form {
+    max-width: 400px;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+.suggestion-form input, 
+.suggestion-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.suggestion-form textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.suggestion-form button {
+    background: #4CAF50;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.suggestion-form button:hover {
+    background: #45a049;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="head">
+    <h1>Bengaluru</h1>
+</div>
+<hr>
+<div class="intro">
+    <div class="image">
+        <img src="Banglore.jpg" width="400px" height="300px" title="Bengaluru">
+    </div>
+    <div class="read"><span><p><i>Bengaluru – The Garden City with a Beating Tech Heart
+Bengaluru, often called the “Silicon Valley of India,” is a city where tradition and innovation walk hand in hand. From the leafy avenues of Cubbon Park to the buzzing streets lined with tech startups and cozy cafés, the city offers a perfect blend of culture, creativity, and cosmopolitan charm. Whether it’s the aroma of freshly brewed filter coffee, the vibrant weekend markets, or the year-round pleasant weather, Bengaluru has a way of making every moment feel alive.<br>
+       <br> Beyond its IT parks and skyscrapers, Bengaluru is a city of hidden layers waiting to be explored. You can lose yourself in its centuries-old temples, shop for handmade crafts in bustling markets, or enjoy late-night conversations at street-side dosa stalls. The city’s diverse crowd brings flavors from across India and the world, making its food scene as vibrant as its music, art, and nightlife. No matter where you come from, Bengaluru has a way of making you feel at home while keeping you curious for more.</i></p></span></div>
+</div>
+
+<section class="attractions">
+    <h2>Top Attractions in Bengaluru</h2>
+    <div class="attractions-grid">
+        <div class="attraction-card">
+            <img src="lalbagh.jpg" alt="Lalbagh Botanical Garden">
+            <h3>Lalbagh Botanical Garden</h3>
+            <p>Famous for its glasshouse and rare plants, Lalbagh is a peaceful escape in the heart of the city.</p>
+        </div>
+        <div class="attraction-card">
+            <img src="cubbon.jpg" alt="Cubbon Park">
+            <h3>Cubbon Park</h3>
+            <p>Perfect for morning walks, picnics, and relaxing under lush green trees.</p>
+        </div>
+        <div class="attraction-card">
+            <img src="palace.jpg" alt="Bangalore Palace">
+            <h3>Bangalore Palace</h3>
+            <p>Experience royal architecture and history at this iconic landmark.</p>
+        </div>
+        <div class="attraction-card">
+            <img src="commercial.jpg" alt="Commercial Street">
+            <h3>Commercial Street</h3>
+            <p>A vibrant shopping hub for clothes, jewelry, and street food.</p>
+        </div>
+    </div>
+</section>
+<section class="culture">
+    <h2>Culture of Bengaluru</h2>
+    <p class="section-desc">
+        Bengaluru’s culture is a vibrant blend of traditional Kannada heritage and modern cosmopolitan lifestyle. 
+        Here are some cultural highlights you must experience:
+    </p>
+
+    <div class="culture-grid">
+        <div class="culture-card">
+            <img src="yakshagan.png" alt="Yakshagana">
+            <div class="card-content">
+                <h3>Yakshagana</h3>
+                <p>A traditional theatre art form combining dance, music, and storytelling, performed in vibrant costumes.</p>
+            </div>
+        </div>
+
+        <div class="culture-card">
+            <img src="dasara.jpg" alt="Dasara Festival">
+            <div class="card-content">
+                <h3>Dasara Festival</h3>
+                <p>An extravagant celebration with grand processions, lights, and cultural performances in and around the city.</p>
+            </div>
+        </div>
+
+        <div class="culture-card">
+            <img src="cuisine.jpg" alt="Karnataka Cuisine">
+            <div class="card-content">
+                <h3>Karnataka Cuisine</h3>
+                <p>Delicious traditional dishes like Bisi Bele Bath, Ragi Mudde, and Mysore Pak that reflect local flavors.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="suggestions">
+    <h2>Share Your Suggestions</h2>
+    <form action="#" method="post" class="suggestion-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+
+        <label for="suggestion">Your Suggestion</label>
+        <textarea id="suggestion" name="suggestion" placeholder="Share your ideas..." rows="4" required></textarea>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+</body>
+</html>
